@@ -1,5 +1,5 @@
 {
-  "name": "express-boilerplate",
+  "name": "keith-sam-bookmarks-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SwordSageKeith/express-boilerplate.git"
+    "url": "git+https://github.com/thinkful-ei-firefly/keith-sam-bookmarks-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SwordSageKeith/express-boilerplate/issues"
+    "url": "https://github.com/thinkful-ei-firefly/keith-sam-bookmarks-server/issues"
   },
-  "homepage": "https://github.com/SwordSageKeith/express-boilerplate#readme"
+  "homepage": "https://github.com/thinkful-ei-firefly/keith-sam-bookmarks-server#readme"
 }
