@@ -16,4 +16,17 @@ bookmarkRouter.route('/')
   console.log('bookmarks delete')
 })
 
+bookmarkRouter.route('/:id')
+.get((req, res) => {
+  id = req.params.id;
+  let item = bookmarks.find(book => book.id === Number(id));
+  if (item === undefined){
+    res
+      .status(404)
+      .send('No book with that ID');
+  } else {
+    res.json(item);
+  }
+})
+
 module.exports = bookmarkRouter;
